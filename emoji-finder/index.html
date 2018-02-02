@@ -1,0 +1,54 @@
+<!-- <meta charset='utf-8'> -->
+
+<span class="happy">😀</span>
+<span class="happy excited">😃</span>
+<span class="happy excited">😄</span>
+<span class="happy excited">😆</span>
+<span class="sad">😂</span>
+<span class="happy">😊</span>
+<span class="happy">😇</span>
+<span class="happy">😌</span>
+<span class="confused">😍</span>
+<span class="happy">😗</span>
+<span class="happy">😙</span>
+<span class="happy">😚</span>
+<span class="happy excited">😋</span>
+<span class="confused excited">😜</span>
+<span class="confused excited">😝</span>
+<span class="confused excited">😛</span>
+<span class="sad">😒</span>
+<span class="sad">😞</span>
+<span class="sad">😔</span>
+<span class="sad">😟</span>
+<span class="sad">😕</span>
+<span class="confused">😖</span>
+<span class="sad">😫</span>
+<span class="sad">😩</span>
+<span class="sad">😤</span>
+<span class="sad">😠</span>
+<span class="sad">😡</span>
+<span class="confused">😶</span>
+<span class="surprised">😐</span>
+<span class="confused">😑</span>
+<span class="surprised">😯</span>
+<span class="surprised">😦</span>
+<span class="surprised">😧</span>
+<span class="surprised">😮</span>
+<span class="surprised confused">😲</span>
+<span class="surprised confused">😵</span>
+<span class="surpised confused">😳</span>
+<span class="happy">😱</span>
+<span class="sad surprised confused">😨</span>
+<span class="sad confused">😰</span>
+<span class="sad confused">😢</span>
+<span class="sad confused">😥</span>
+
+<script>
+  spans = document.querySelectorAll("span")
+  function search(tag){
+    for(span of spans){
+      isMatch = span.className.match(tag)
+      span.setAttribute("style", isMatch || "display:none")
+    }
+  }
+</script>
