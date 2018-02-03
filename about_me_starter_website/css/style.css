@@ -16,7 +16,7 @@ h2 {
 }
 
 .banner {
-	background:url(../img/motorcycle.jpg) no-repeat;
+	background:url(../img/bg.jpg) no-repeat;
 	background-size:cover;
 	width:100%;
 	position:relative;
@@ -75,7 +75,7 @@ h2 {
 
 .headshot img {
 	width:70%;
-	border-radius:100%;
+	border-radius:30%;
 	display:block;
 	border:#CCC 4px solid;
 	margin-left:auto;
